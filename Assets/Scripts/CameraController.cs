@@ -9,9 +9,9 @@ public class CameraController : MonoBehaviour
     public float smoothTime = 0.3f;
 
     public Vector3 positionOffset;
-    [Header("Axis Limitation")]
-    public Vector2 xLimit;
-    public Vector2 yLimit;
+    //[Header("Axis Limitation")]
+    //public Vector2 xLimit;
+    //public Vector2 yLimit;
 
     private void Awake()
     {
@@ -31,10 +31,7 @@ public class CameraController : MonoBehaviour
         if (target == null) return;  
 
         Vector3 targetPosition = target.position + positionOffset;
-        targetPosition = new Vector3(
-            Mathf.Clamp(targetPosition.x, xLimit.x, xLimit.y),
-            Mathf.Clamp(targetPosition.y, yLimit.x, yLimit.y),
-            -10);
+        //targetPosition = new Vector3(Mathf.Clamp(targetPosition.x, xLimit.x, xLimit.y),Mathf.Clamp(targetPosition.y, yLimit.x, yLimit.y),-10);
 
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
     }
