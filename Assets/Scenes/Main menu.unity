@@ -1714,7 +1714,11 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+<<<<<<< HEAD
           m_IntArgument: 1
+=======
+          m_IntArgument: 2
+>>>>>>> 4014effcc988a92c527568d2cd47dbe1e6cf6c2a
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2751,7 +2755,11 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+<<<<<<< HEAD
           m_IntArgument: 2
+=======
+          m_IntArgument: 1
+>>>>>>> 4014effcc988a92c527568d2cd47dbe1e6cf6c2a
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
