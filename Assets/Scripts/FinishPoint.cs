@@ -12,16 +12,10 @@ public class FinishPoint : MonoBehaviour
         {
             UnLockNewLevel();
             //reser level
-            //PlayerPrefs.SetInt("UnlockedLevel", 1);
-<<<<<<< HEAD
-            //PlayerPrefs.Save();
+            PlayerPrefs.SetInt("UnlockedLevel", 1);
+            PlayerPrefs.Save();
 
             ResetLevelProgress();
-=======
-            // PlayerPrefs.Save();
-
-           // ResetLevelProgress();
->>>>>>> 4014effcc988a92c527568d2cd47dbe1e6cf6c2a
             SceneController.instance.NextLevel();
         }
     }

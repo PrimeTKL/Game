@@ -49,17 +49,19 @@ public class DoorSwitch : MonoBehaviour
         }
         door.position = openPosition;
 
-        yield return new WaitForSeconds(waitTime);
+        //dong cua
+        //yield return new WaitForSeconds(waitTime);
 
        
-        elapsedTime = 0f;
-        while (elapsedTime < openDuration)
-        {
-            door.position = Vector3.Lerp(openPosition, doorOriginalPosition, elapsedTime / openDuration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-        door.position = doorOriginalPosition;
+        //elapsedTime = 0f;
+        //while (elapsedTime < openDuration)
+        //{
+        //    door.position = Vector3.Lerp(openPosition, doorOriginalPosition, elapsedTime / openDuration);
+        //    elapsedTime += Time.deltaTime;
+        //    yield return null;
+        //}
+        //door.position = doorOriginalPosition;
+        ////
     }
 
     private void ChangeSprite()

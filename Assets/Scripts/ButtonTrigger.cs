@@ -5,13 +5,10 @@ using UnityEngine;
 public class ButtonTrigger : MonoBehaviour
 {
     public HingeJoint2D lever;
-<<<<<<< HEAD
 
     public Sprite newSprite;  
     private SpriteRenderer spriteRenderer;
 
-=======
->>>>>>> 4014effcc988a92c527568d2cd47dbe1e6cf6c2a
     private bool isActivated = false; 
 
     void Start()
@@ -20,11 +17,8 @@ public class ButtonTrigger : MonoBehaviour
         {
             lever.useMotor = false;
         }
-<<<<<<< HEAD
 
         spriteRenderer = GetComponent<SpriteRenderer>();
-=======
->>>>>>> 4014effcc988a92c527568d2cd47dbe1e6cf6c2a
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -32,13 +26,9 @@ public class ButtonTrigger : MonoBehaviour
         if (collision.CompareTag("Player") && !isActivated)
         {
             isActivated = true; 
-<<<<<<< HEAD
             ActivateLever();
 
             ChangeSprite();
-=======
-            ActivateLever(); 
->>>>>>> 4014effcc988a92c527568d2cd47dbe1e6cf6c2a
         }
     }
 
@@ -52,7 +42,6 @@ public class ButtonTrigger : MonoBehaviour
             lever.useLimits = true;
         }
     }
-<<<<<<< HEAD
     private void ChangeSprite()
     {
         if (spriteRenderer != null && newSprite != null)
@@ -60,6 +49,4 @@ public class ButtonTrigger : MonoBehaviour
             spriteRenderer.sprite = newSprite;  
         }
     }
-=======
->>>>>>> 4014effcc988a92c527568d2cd47dbe1e6cf6c2a
 }

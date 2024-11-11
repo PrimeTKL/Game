@@ -67,16 +67,16 @@ public class DoorWithKey : MonoBehaviour
             yield return null;
         }
         door.position = openPosition;
+        //dong cua
+        //yield return new WaitForSeconds(waitTime);
 
-        yield return new WaitForSeconds(waitTime);
-
-        elapsedTime = 0f;
-        while (elapsedTime < openDuration)
-        {
-            door.position = Vector3.Lerp(openPosition, doorOriginalPosition, elapsedTime / openDuration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-        door.position = doorOriginalPosition;
+        //elapsedTime = 0f;
+        //while (elapsedTime < openDuration)
+        //{
+        //    door.position = Vector3.Lerp(openPosition, doorOriginalPosition, elapsedTime / openDuration);
+        //    elapsedTime += Time.deltaTime;
+        //    yield return null;
+        //}
+        //door.position = doorOriginalPosition;
     }
 }

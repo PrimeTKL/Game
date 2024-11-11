@@ -44,6 +44,9 @@ public class MovementController : MonoBehaviour
             direction = 0f;
         };
         controls.Player.Jump.performed += ctx => Jump();
+
+        controls.Player.Attack.performed += ctx => StartAttack();
+        controls.Player.Attack.canceled += ctx => StopAttack();
     }
 
     private void Start()
@@ -100,8 +103,20 @@ public class MovementController : MonoBehaviour
             animator.SetBool("isJumping", false);
            // state = StateAnimation.fall;
         }
-       // animator.SetInteger("state",(int)state);
+        // animator.SetInteger("state",(int)state);
 
+
+    }
+    private void StartAttack()
+    {
+        
+        animator.SetBool("isAttacking", true);
+    }
+
+    private void StopAttack()
+    {
+        
+        animator.SetBool("isAttacking", false);
     }
 
     void Jump()
@@ -111,6 +126,7 @@ public class MovementController : MonoBehaviour
             rb.velocity=new Vector2(rb.velocity.x, jumpSpeed);
         }
     }
+
     bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center,coll.bounds.size,0f,Vector2.down, .1f,groundLayers);
