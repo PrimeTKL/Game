@@ -5,18 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class FinishPoint : MonoBehaviour
 {
+    public bool checkFinishPoint=false;
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             UnLockNewLevel();
-            //reser level
-            PlayerPrefs.SetInt("UnlockedLevel", 1);
-            PlayerPrefs.Save();
+            checkFinishPoint = true;
+            ////reser level
+            //PlayerPrefs.SetInt("UnlockedLevel", 1);
+            //PlayerPrefs.Save();
 
             ResetLevelProgress();
-            SceneController.instance.NextLevel();
+            //SceneController.instance.NextLevel();
         }
     }
      void UnLockNewLevel()

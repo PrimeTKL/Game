@@ -12,12 +12,12 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void LoadMenu()
-    {
-        SceneManager.LoadSceneAsync(0);
-    }
-    public void LoadSences()
-    {
-        SceneManager.LoadSceneAsync(1);
-    }
+    //public void LoadMenu()
+    //{
+    //    SceneManager.LoadSceneAsync(0);
+    //}
+    //public void LoadSences()
+    //{
+    //    SceneManager.LoadSceneAsync(1);
+    //}
 }

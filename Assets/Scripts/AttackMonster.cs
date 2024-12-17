@@ -10,10 +10,16 @@ public class AttackMonster : MonoBehaviour
     public LayerMask player;
     public float damageMonster;
 
+    public MonsterMovement monsterMovement;
+
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (monsterMovement == null)
+        {
+            monsterMovement = FindObjectOfType<MonsterMovement>();
+        }
     }
 
     public void Attack()
@@ -22,6 +28,7 @@ public class AttackMonster : MonoBehaviour
         foreach (Collider2D enemyGameobject in pl)
         {
             Debug.Log("Hit player");
+            
             enemyGameobject.GetComponent<PlayerHealth>().healthPl -= damageMonster;
         }
     }

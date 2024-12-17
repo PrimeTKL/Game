@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
     Vector2 checkpointPos;
     SpriteRenderer spriteRenderer;
+    public PlayerHealth playerHealth;
 
     private void Awake()
     {
@@ -15,6 +16,10 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         checkpointPos = transform.position;
+        if(playerHealth == null)
+        {
+            playerHealth = FindObjectOfType<PlayerHealth>();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -27,7 +32,10 @@ public class GameController : MonoBehaviour
     public void Die()
     {
         //StartCoroutine(Respawn(0.5f));
-        Respawn();
+        //Respawn();
+        Debug.Log("q");
+        playerHealth.healthPl -= 5;
+
     }
     public void UpdateCheckpoint(Vector2 pos)
     {

@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,9 +5,8 @@ public class MonsterMovement : MonoBehaviour
 {
     public Transform[] points;
     public float moveSpeed;
-    public int destination = 0; 
+    public int destination = 0;
 
-    public Transform playerTransform;
     public bool isChasing;
     public float chaseDistance;
 
@@ -17,19 +15,12 @@ public class MonsterMovement : MonoBehaviour
     public Animator animator;
     public GameObject childObject;
 
-    public PlayerHealth playerHealth;
-
     private Vector3 originalScale;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        if (playerHealth == null)
-        {
-            playerHealth = FindObjectOfType<PlayerHealth>();
-        }
         originalScale = transform.localScale;
-
         if (childObject != null)
         {
             childObject.SetActive(false);
@@ -40,13 +31,15 @@ public class MonsterMovement : MonoBehaviour
     {
         if (!isMoving) return;
 
-        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+        bool isPlayerInRange = SkinPlayer.playerTransform != null && SkinPlayer.playerTransform.position.x > points[0].position.x && SkinPlayer.playerTransform.position.x < points[1].position.x;
 
-        if (distanceToPlayer < chaseDistance && playerHealth.healthPl > 0)
+        float distanceToPlayer = Vector2.Distance(transform.position, SkinPlayer.playerTransform.position);
+
+        if (distanceToPlayer < chaseDistance || isPlayerInRange)
         {
             if (!isChasing)
             {
-                originalScale = transform.localScale; 
+                originalScale = transform.localScale;
             }
             isChasing = true;
             animator.SetBool("Bite", true);
@@ -58,39 +51,34 @@ public class MonsterMovement : MonoBehaviour
         }
         else
         {
-            if (isChasing) 
+            if (isChasing)
             {
                 isChasing = false;
                 animator.SetBool("Bite", false);
-            
+
                 if (transform.localScale != originalScale)
                 {
                     transform.localScale = originalScale;
                 }
             }
             Patrol();
-
-            //if (childObject != null)
-            //{
-            //    childObject.SetActive(false);
-            //}
         }
 
         if (isChasing)
         {
             if (!isMoving) return;
-            ChasePlayer(); 
+            ChasePlayer();
         }
     }
 
     private void ChasePlayer()
     {
-        if (transform.position.x > playerTransform.position.x)
+        if (transform.position.x > SkinPlayer.playerTransform.position.x)
         {
             transform.localScale = new Vector3(1, 1, 1);
             transform.position += Vector3.left * moveSpeed * Time.deltaTime;
         }
-        else if (transform.position.x < playerTransform.position.x)
+        else if (transform.position.x < SkinPlayer.playerTransform.position.x)
         {
             transform.localScale = new Vector3(-1, 1, 1);
             transform.position += Vector3.right * moveSpeed * Time.deltaTime;

@@ -13,8 +13,9 @@ public class MovementController : MonoBehaviour
     public bool isOnPlatform;
     public Rigidbody2D platFormRb;
 
-    public CoinManager cm;
-    
+    //public CoinManager cm;
+    AudioManager audioManager;
+
 
     private float direction = 0f;
 
@@ -54,7 +55,11 @@ public class MovementController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
-        
+        if (audioManager == null)
+        {
+            audioManager = FindObjectOfType<AudioManager>();
+        }
+
     }
     private void Update()
     {
@@ -109,7 +114,10 @@ public class MovementController : MonoBehaviour
     }
     private void StartAttack()
     {
-        
+        if (audioManager != null && audioManager.gameOver != null)
+        {
+            audioManager.PlaySFX(audioManager.attack);
+        }
         animator.SetBool("isAttacking", true);
     }
 
@@ -140,14 +148,14 @@ public class MovementController : MonoBehaviour
         controls.Disable();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Coin"))
-        {
-            Destroy(other.gameObject);
-            cm.coinCount++;
-        }
-    }
+    //private void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (other.gameObject.CompareTag("Coin"))
+    //    {
+    //        Destroy(other.gameObject);
+    //        cm.coinCount++;
+    //    }
+    //}
     //    Rigidbody2D rb;
 
     //    [SerializeField] int speed;

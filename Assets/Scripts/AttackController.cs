@@ -19,10 +19,22 @@ public class AttackController : MonoBehaviour
     public void Attack()
     {
         Collider2D[] enemy = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius,enemies);
-        foreach (Collider2D enemyGameobject in enemy) 
+        foreach (Collider2D enemyGameObject in enemy) 
         {
-            Debug.Log("Hit enemy");
-            enemyGameobject.GetComponent<MonsterHealth>().health -= damage;
+            MonsterHealth monsterHealth = enemyGameObject.GetComponent<MonsterHealth>();
+            if (monsterHealth != null)
+            {
+                monsterHealth.health -= damage; 
+                Debug.Log($"Hit monster: {enemyGameObject.name}, Remaining Health: {monsterHealth.health}");
+            }
+
+            
+            BossHealth bossHealth = enemyGameObject.GetComponent<BossHealth>();
+            if (bossHealth != null)
+            {
+                bossHealth.health -= damage; 
+                Debug.Log($"Hit boss: {enemyGameObject.name}, Remaining Health: {bossHealth.health}");
+            }
         }
     }
     private void OnDrawGizmos()

@@ -14,6 +14,7 @@ public class MonsterHealth : MonoBehaviour
     public Collider2D myCollider;
 
     public MonsterMovement monsterMovement;
+    private bool isDead = false;
 
     [SerializeField] private Image heathBarFill;
     void Start()
@@ -30,18 +31,27 @@ public class MonsterHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDead) return; 
+
         if (health < currentHealth)
         {
             currentHealth = health;
             animator.SetTrigger("Attacked");
             Debug.Log(health);
         }
+
         if (health <= 0)
         {
-            animator.SetBool("isDead",true);
+            isDead = true; 
+            animator.SetBool("isDead", true);
+            Debug.Log("chet");
             myCollider.isTrigger = true;
             Invoke("Disappear", 3f);
-            monsterMovement.SetMovement(false);
+
+            if (monsterMovement != null)
+            {
+                monsterMovement.SetMovement(false);
+            }
         }
 
         heathBarFill.fillAmount = health/maxHealth;

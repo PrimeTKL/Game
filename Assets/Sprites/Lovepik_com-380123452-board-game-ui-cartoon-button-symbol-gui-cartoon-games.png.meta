@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: 872ca9870da55254297fbe64e7261d22
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_0
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1889
+        width: 1132
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126fffe032a514b49aeb26fdb52968bc
+      internalID: -1989169080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_1
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1855
+        width: 322
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee34e649e7c6b904b9f35ca049f17921
+      internalID: 1699309219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_2
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1855
+        width: 324
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9e9a06236c1764d9c9d254d19407bf
+      internalID: 1554446857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1301
+        width: 450
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7650a3c5be1686048afd7b7446322384
+      internalID: -522594244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_4
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1297
+        width: 435
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d021e34901c9941b103a4376ead1d2
+      internalID: -126539262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_5
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1297
+        width: 436
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041cb5c8f507aab4a9cb774c08462a95
+      internalID: 1795085557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_6
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1297
+        width: 437
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d857c37a87e4d7946ae04ef1557557ac
+      internalID: -343971926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_7
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 858
+        width: 276
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8041fac21630ed4394295e0614bb0be
+      internalID: -860171913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_8
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 861
+        width: 1676
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4582638164b60b4ea6c2b47c696ed8e
+      internalID: 759406690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 320
+        width: 436
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251387672be61c244a5b25446c18c06d
+      internalID: -688616790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_10
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 320
+        width: 436
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2469c21948cacb54bb8d38c6215169f1
+      internalID: -1499761333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_11
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 549
+        width: 684
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca55b9addf691040b9cc41899a0306c
+      internalID: -1950499968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_12
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 344
+        width: 674
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad8a7af134d12a4fb8a26ed3768d43e
+      internalID: 1488293007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_0: -1989169080
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_1: 1699309219
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_10: -1499761333
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_11: -1950499968
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_12: 1488293007
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_2: 1554446857
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_3: -522594244
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_4: -126539262
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_5: 1795085557
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_6: -343971926
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_7: -860171913
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_8: 759406690
+      Lovepik_com-380123452-board-game-ui-cartoon-button-symbol-gui-cartoon-games_9: -688616790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

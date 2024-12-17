@@ -10,13 +10,14 @@ public class PlayerHealth : MonoBehaviour
 
     public Animator animator;
     public MonsterMovement monsterMovement;
+    AudioManager audioManager;
 
     public List<Image> heartImages;  
     public Sprite fullHeart;        
     public Sprite halfHeart;         
     public Sprite emptyHeart;     
 
-    private bool isDead = false;
+    public bool isDead = false;
 
     void Start()
     {
@@ -33,6 +34,10 @@ public class PlayerHealth : MonoBehaviour
         {
             monsterMovement = FindObjectOfType<MonsterMovement>();
         }
+        if (audioManager == null)
+        {
+            audioManager = FindObjectOfType<AudioManager>();
+        }
     }
 
     void Update()
@@ -40,16 +45,28 @@ public class PlayerHealth : MonoBehaviour
         if (healthPl < currentHealthPl)
         {
             currentHealthPl = healthPl;
+            if (healthPl>0&&audioManager != null && audioManager.gameOver != null)
+            {
+                audioManager.PlaySFX(audioManager.takeDamge);
+            }
             animator.SetTrigger("Attacked");
             UpdateHearts();
         }
 
         if (healthPl <= 0 && !isDead)
         {
-            isDead = true;
+            
             animator.SetBool("isDead", true);
             monsterMovement.SetMovement(false);
+            
+            Invoke("Dead", 2f);
+
+            
         }
+    }
+    public void Dead()
+    {
+        isDead = true;
     }
 
     void UpdateHearts()

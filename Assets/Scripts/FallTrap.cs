@@ -28,6 +28,7 @@ public class FallTrap : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             gameController.Die();
+            KhoiPhuc();
         }
     }
     private void KhoiPhuc()

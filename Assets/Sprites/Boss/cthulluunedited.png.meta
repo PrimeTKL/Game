@@ -1,0 +1,1598 @@
+fileFormatVersion: 2
+guid: 71db896b758fc364781bd3ca844292ba
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cthulluunedited_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 927
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20f96ad99c475b43a456bc0333df525
+      internalID: 1743085161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 927
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa107724d378bff4ea55be53d80705b6
+      internalID: 1798456852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 927
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e59292e1f30547827ca234fe61045
+      internalID: 357143542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 926
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1589a38c1e40e248aa3dd8ad023316d
+      internalID: 500543074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 926
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4768486722a29ca4e89d5e655d21214b
+      internalID: -1798121643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 926
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdc9b1c64f33d3458e9f77579b1d9ac
+      internalID: 892458849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_6
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 926
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c61680e2909b641b6766719137d781
+      internalID: 1289870335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_7
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 926
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd5985bdcd87494889a5f17f2af5261
+      internalID: 588175429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_8
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 926
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be57865923b1c8439e831e3c96927c7
+      internalID: -1219894733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 925
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d32263f69ace2d48bab4f951e7fd7da
+      internalID: -1071570037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_10
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 926
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07ec172b20a47240b2d463f80847d20
+      internalID: -1213941271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 926
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66201b8526ec72e42a45d674abda39bd
+      internalID: -1853647908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_12
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 926
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99d70baec6dfad49819820a321ea9bf
+      internalID: 1139159348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_13
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 926
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5da15a389c5284784305a51373b6c5
+      internalID: -404744632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_14
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 926
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8c26e9e0834c84e8ca78c69dfcd35a
+      internalID: 1121034350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 795
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9200260ba56e4468bfd413d01146b4
+      internalID: -14270351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_16
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 797
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636142aac809464429025e1964cad381
+      internalID: 98556798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 796
+        width: 134
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d1fa30750ceda41ac95131fba60a26
+      internalID: 740499460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_18
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 795
+        width: 126
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef621104045b004c8c2b7e229bbffff
+      internalID: 860433558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 795
+        width: 104
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f2c03a1021474e942d65ddf67f4ee
+      internalID: 686831028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_20
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 792
+        width: 101
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9afe18f63742a489816172b70b3b24
+      internalID: -1600500950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_23
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 792
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ac63a52344c664795e9c467e6cd6aa
+      internalID: -1637255941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 668
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0222d39ec2d78a04288ab4c904c7f284
+      internalID: -1131891642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_25
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 666
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6bc9448078e514f9dbc367a23d77aa
+      internalID: 1211394612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_26
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 666
+        width: 112
+        height: 64
+      alignment: 9
+      pivot: {x: 0.32853237, y: 0.5818367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a3755e553289948b6fd7e1544d574d
+      internalID: -895817750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_27
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 668
+        width: 137
+        height: 63
+      alignment: 9
+      pivot: {x: 0.2719968, y: 0.5831357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550c8e38206580a4788e337e7a88cacd
+      internalID: -1106835369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_28
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 666
+        width: 134
+        height: 62
+      alignment: 9
+      pivot: {x: 0.24593934, y: 0.5844766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957440e7fffa6db44a0915c8269fbbe4
+      internalID: 2004929148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_29
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 667
+        width: 136
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2625122, y: 0.5422383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b96ec42f32e394aa77a4ca9835a215
+      internalID: -189449428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_30
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 666
+        width: 130
+        height: 62
+      alignment: 9
+      pivot: {x: 0.2851262, y: 0.57039714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5933954efe1e32c4a9f3308ed8794cba
+      internalID: 15995073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_31
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 666
+        width: 85
+        height: 63
+      alignment: 9
+      pivot: {x: 0.32541505, y: 0.5277119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0856b3030d843154dbfb71bcae2e4de0
+      internalID: 40865443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_32
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 665
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fce64b75fd4a24da0f8ad8fab6f002
+      internalID: -458953535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 540
+        width: 81
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9232791335d9fd44c899d3c132b9f135
+      internalID: 2026619833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 540
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de30922e9289cd14fb2ed16327d4372e
+      internalID: 908926945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_35
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 543
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7062a4b8e987c4d9704894f6683665
+      internalID: 363992368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_36
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 543
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c0d1eb9437f3d42ac1283d9b6904ae
+      internalID: -1321130070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_37
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 546
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d9905aa7044394384beb649d4b6ebd
+      internalID: -1138723978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_38
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 547
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1f52a88b463fe4884a0655ede06824
+      internalID: 1479936174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_39
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 547
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf118a17e2909784cbe9888b4b170376
+      internalID: -907605830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_40
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 547
+        width: 76
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0421293f32c7a0744bcf2bb4216c59ea
+      internalID: 404977413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_41
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 546
+        width: 76
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a818db26fb1b4dc4aa52915c606d8d20
+      internalID: 1677042065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_42
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 546
+        width: 81
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f116781ad4e1c84c8d758cc7a41aebf
+      internalID: -358612268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_43
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 546
+        width: 81
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdcc1de794306548a9bb062e8534829
+      internalID: 762945666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_44
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 398
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad54db406ebee784caa226928685151a
+      internalID: 73766464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_45
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 387
+        width: 104
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fe82032b317b346b2d3cc4342c1509
+      internalID: 1739458337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_46
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 383
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e37802ec54e3c54cab800f16dc3f8f2
+      internalID: -1347726090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_47
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 390
+        width: 101
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b27cd873533bd4da54353aa053034d
+      internalID: 322419728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_48
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 398
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81114db9f5866694497384e800271f42
+      internalID: 1851323619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_49
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 396
+        width: 93
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f03add948f8ace43a1eefbbc7cc4582
+      internalID: 1326872703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 301
+        width: 81
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30210a2edc6464a43bb454be7b31df72
+      internalID: 167963818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 306
+        width: 81
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5868b29f96e16a342b63db9aafe14cea
+      internalID: 562899080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_52
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 306
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e8337be82b82245812ae35264fffba
+      internalID: 1669474070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 306
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56805465965cea649a0cdc0363bf124c
+      internalID: 542397499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_54
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 307
+        width: 81
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4d43aa08edd374aa665e4169604bee
+      internalID: -752235415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_55
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 189
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560c21889386906488dce6d2c1ff2dd2
+      internalID: -1326949524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_56
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 189
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aefa6c14c04b22478555f7d76531ee3
+      internalID: 666904586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_57
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 189
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cc5edca66be004d9ac5938b4b32eea
+      internalID: 619232047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_58
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 190
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f357c66db7b97e24fa8eb91c9473340f
+      internalID: -1193685230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_59
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 190
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3675e4688082d9740ab3f80660942637
+      internalID: 502110849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_60
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 190
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac5485d0353dcf4eb41a8b28cb48a98
+      internalID: 522674041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_61
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 189
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4036938f7e916484dbd098c73b4c3502
+      internalID: -1095950159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_62
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 185
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173ab2947c38b93449b4402274c0e001
+      internalID: 1471406505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_63
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 189
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d18cf90d1f07684da59edb73d96ca9f
+      internalID: 184200942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_64
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 186
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f539bbedb2c4e494e842d57b717f7986
+      internalID: -1257499767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_65
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 185
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32814c680d8cd3d458359c436a6d8a72
+      internalID: 1217251952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cthulluunedited_66
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 185
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8e3822d2a62f44291629fa2312249b
+      internalID: -1453229430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cthulluunedited_0: 1743085161
+      cthulluunedited_1: 1798456852
+      cthulluunedited_10: -1213941271
+      cthulluunedited_11: -1853647908
+      cthulluunedited_12: 1139159348
+      cthulluunedited_13: -404744632
+      cthulluunedited_14: 1121034350
+      cthulluunedited_15: -14270351
+      cthulluunedited_16: 98556798
+      cthulluunedited_17: 740499460
+      cthulluunedited_18: 860433558
+      cthulluunedited_19: 686831028
+      cthulluunedited_2: 357143542
+      cthulluunedited_20: -1600500950
+      cthulluunedited_21: 771623016
+      cthulluunedited_22: 355855670
+      cthulluunedited_23: -1637255941
+      cthulluunedited_24: -1131891642
+      cthulluunedited_25: 1211394612
+      cthulluunedited_26: -895817750
+      cthulluunedited_27: -1106835369
+      cthulluunedited_28: 2004929148
+      cthulluunedited_29: -189449428
+      cthulluunedited_3: 500543074
+      cthulluunedited_30: 15995073
+      cthulluunedited_31: 40865443
+      cthulluunedited_32: -458953535
+      cthulluunedited_33: 2026619833
+      cthulluunedited_34: 908926945
+      cthulluunedited_35: 363992368
+      cthulluunedited_36: -1321130070
+      cthulluunedited_37: -1138723978
+      cthulluunedited_38: 1479936174
+      cthulluunedited_39: -907605830
+      cthulluunedited_4: -1798121643
+      cthulluunedited_40: 404977413
+      cthulluunedited_41: 1677042065
+      cthulluunedited_42: -358612268
+      cthulluunedited_43: 762945666
+      cthulluunedited_44: 73766464
+      cthulluunedited_45: 1739458337
+      cthulluunedited_46: -1347726090
+      cthulluunedited_47: 322419728
+      cthulluunedited_48: 1851323619
+      cthulluunedited_49: 1326872703
+      cthulluunedited_5: 892458849
+      cthulluunedited_50: 167963818
+      cthulluunedited_51: 562899080
+      cthulluunedited_52: 1669474070
+      cthulluunedited_53: 542397499
+      cthulluunedited_54: -752235415
+      cthulluunedited_55: -1326949524
+      cthulluunedited_56: 666904586
+      cthulluunedited_57: 619232047
+      cthulluunedited_58: -1193685230
+      cthulluunedited_59: 502110849
+      cthulluunedited_6: 1289870335
+      cthulluunedited_60: 522674041
+      cthulluunedited_61: -1095950159
+      cthulluunedited_62: 1471406505
+      cthulluunedited_63: 184200942
+      cthulluunedited_64: -1257499767
+      cthulluunedited_65: 1217251952
+      cthulluunedited_66: -1453229430
+      cthulluunedited_7: 588175429
+      cthulluunedited_8: -1219894733
+      cthulluunedited_9: -1071570037
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
