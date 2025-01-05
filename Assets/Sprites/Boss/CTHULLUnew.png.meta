@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 8e4d7a3a93bacdf46b0ea0d873e99e4e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CTHULLUnew_0
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 215
+        width: 136
+        height: 288
+      alignment: 9
+      pivot: {x: 0.4821818, y: 0.13187663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb36343d2233eac459800caccde706e4
+      internalID: -1404492832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_1
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 218
+        width: 137
+        height: 285
+      alignment: 9
+      pivot: {x: 0.48673397, y: 0.13437885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7761dec8de1dd042b1b170fde832f21
+      internalID: -1006316823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_2
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 218
+        width: 137
+        height: 286
+      alignment: 9
+      pivot: {x: 0.45577937, y: 0.13393562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7495b53934d0c443be6b10440b3a16a
+      internalID: -2088853965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_6
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 216
+        width: 92
+        height: 287
+      alignment: 9
+      pivot: {x: 0.42097938, y: 0.11370685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f1e4db093d9a040a9345d3d1ee3c68
+      internalID: 1072835290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 217
+        width: 134
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5361688, y: 0.2601093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551198aa2b524004eadba0d06d671a36
+      internalID: -109884349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_31
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 215
+        width: 102
+        height: 117
+      alignment: 9
+      pivot: {x: 0.39308944, y: 0.3446602}
+      border: {x: 0, y: 0, z: 2, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff2413f10a68bc42bf6b551feaee1b4
+      internalID: -1165376063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 215
+        width: 97
+        height: 87
+      alignment: 9
+      pivot: {x: 0.48126298, y: 0.45125535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d02c61ca9b33e4ba3c964ac9df3c58
+      internalID: -433887359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_39
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 215
+        width: 91
+        height: 98
+      alignment: 9
+      pivot: {x: 0.42011103, y: 0.38254407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7840bb2d80999ae4896695ae5026be9a
+      internalID: -79648538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_44
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 216
+        width: 62
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5106851, y: 0.113524914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478f897dd928f8b49bab3a7ce6fe3629
+      internalID: -1897299454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_45
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 216
+        width: 60
+        height: 288
+      alignment: 9
+      pivot: {x: 0.51009727, y: 0.119255334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d69c407ea9b70458a2b15ca2d0b7bb
+      internalID: -27659942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTHULLUnew_46
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 216
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bc5251665da8b41bfe4aa708d2ac88
+      internalID: -2029141533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CTHULLUnew_0: -1404492832
+      CTHULLUnew_1: -1006316823
+      CTHULLUnew_10: -920636788
+      CTHULLUnew_11: 60377001
+      CTHULLUnew_12: 1822153475
+      CTHULLUnew_13: 948912549
+      CTHULLUnew_14: 345912134
+      CTHULLUnew_15: 2013749020
+      CTHULLUnew_16: 1661392528
+      CTHULLUnew_17: 1983620755
+      CTHULLUnew_18: 1417972569
+      CTHULLUnew_19: 1587225341
+      CTHULLUnew_2: -2088853965
+      CTHULLUnew_20: -912391993
+      CTHULLUnew_21: -1578706472
+      CTHULLUnew_22: 1165282970
+      CTHULLUnew_23: 1537982205
+      CTHULLUnew_24: 2035286597
+      CTHULLUnew_25: -1019124296
+      CTHULLUnew_26: -109884349
+      CTHULLUnew_27: -311292817
+      CTHULLUnew_28: -683241676
+      CTHULLUnew_29: -241292710
+      CTHULLUnew_3: -2020162334
+      CTHULLUnew_30: -1905969911
+      CTHULLUnew_31: -1165376063
+      CTHULLUnew_32: -356337817
+      CTHULLUnew_33: 537646073
+      CTHULLUnew_34: 1060032039
+      CTHULLUnew_35: -727076528
+      CTHULLUnew_36: -635259021
+      CTHULLUnew_37: 1707067885
+      CTHULLUnew_38: -433887359
+      CTHULLUnew_39: -79648538
+      CTHULLUnew_4: 690181330
+      CTHULLUnew_40: -848379393
+      CTHULLUnew_41: -1437966007
+      CTHULLUnew_42: -834074709
+      CTHULLUnew_43: -1861291753
+      CTHULLUnew_44: -1897299454
+      CTHULLUnew_45: -27659942
+      CTHULLUnew_46: -2029141533
+      CTHULLUnew_5: -563663740
+      CTHULLUnew_6: 1072835290
+      CTHULLUnew_7: -1980280072
+      CTHULLUnew_8: 756199531
+      CTHULLUnew_9: -920949009
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
